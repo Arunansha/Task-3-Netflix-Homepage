@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    background-image: url("bg.jpg");
+    height: 108vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(2500px, 100vw); 
+   
+
+
+}
+
+.main .box {
+    height: 108vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 60px;
+}
+
+nav img {
+    width: 130px;
+    color: red;
+    position: relative;
+    z-index: 10;
+    margin-top: 14px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+#language {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 6px 17px;
+    position: relative;
+    z-index: 10;
+    border: 3px solid rgba(228, 213, 213);
+    border-radius: 4px;
+}
+
+.opt {
+    background-color: white;
+    color: black;
+    border: 3px solid rgba(228, 213, 213);
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(58, 55, 55);
+    position: relative;
+    z-index: 20;
+
+}
+
+.btn {
+    padding: 6px 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(228, 213, 213, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 13px 45px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#df {
+    background-color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.main input {
+    padding: 13px 101px 13px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(228, 213, 213, 0.5);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+}
+
+.secImg {
+    position: relative;
+    margin-top: 1px;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.secImg video {
+    position: absolute;
+    top: 113px;
+    right: 78px;
+    width: 401px;
+
+}
+
+.aboveImg2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    top: -166px;
+    background-color: black;
+    left: 110px;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    border-radius: 7px;
+    height: 94px;
+    z-index: 1;
+}
+
+.aboveImg2 img {
+    width: 54px;
+}
+
+.aboveImg3 {
+    padding: 2px 0;
+
+}
+
+.aboveImg4 {
+    width: 3rem;
+    height: 3rem;
+    background: url("download-icon.gif");
+    display: block;
+    background-size: 100%;
+}
+
+.aboveImg2 {
+    padding: 8px 12px;
+}
+
+.text {
+    margin-left: -53px;
+}
+
+.secImg3 {
+    position: relative;
+    margin-top: 1px;
+}
+
+.secImg3 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg3 video {
+    position: absolute;
+    top: 82px;
+    right: 109px;
+    width: 341px;
+    height: 196px
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text1 {
+    font-size: 16px !important;
+}
+
+.text2 {
+    font-size: 14px !important;
+    color: #2950db;
+}
+
+section.first {
+    padding: 72px 0;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.accordion {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked+label::after {
+    transform: rotate(45deg);
+}
+
+.faqinput {
+    padding: 19px 138px 19px 40px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    color: white;
+    background-color: #0F0F0F;
+    border: 1px solid rgba(228, 213, 213, 0.5);
+}
+
+.hero-buttons1 {
+    padding: 36px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: 59px auto;
+    padding: 14px;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.question a {
+    color: white;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+footer .question {
+    padding: 34px 0;
+}
+
+footer .last {
+    margin-top: 24px;
+}
+
+/* making it responsive */
+
+@media screen and (max-width:600px) {
+
+    .secImg img{
+        width: 284px !important;
+    }
+    .secImg video {
+        position: absolute;
+        top: 79px;
+        right: 43px;
+        width: 202px;
+    }
+    .secImg3 img {
+        width: 295px;
+    }
+    .secImg3 video {
+        position: absolute;
+        top: 24px;
+        right: 59px;
+        width: 181px;
+        height: 173px;
+    }
+    .aboveImg1 {
+        width: 286px;
+    }
+    img.stranger {
+        height: 370px;
+        width: 276px;
+    }
+    .aboveImg2{
+        width: 100%;
+        top: -168px;
+        left: -14px;
+
+    }
+    .main input {
+        padding: 13px 82px 13px 14px;
+    }
+    .faqinput {
+        padding: 19px 24px 19px 40px;
+    }
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .hero-buttons1 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    input[type="text"] {
+        width: 90% ;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .faq h2 {
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+
+    .footer-item {
+        align-items: center;
+    }
+}
+
+
